@@ -4,7 +4,6 @@
 <template>
 
   <h1> <center> Toko Baju </center> </h1>
-  <center><img src="bg2.jpg" alt="Logo Baju" style="width:600px;height:320px;" /> </center>
   <h2 align="center">Login akun</h2>
 
   <center>
@@ -29,7 +28,7 @@
 
 
     <tr>
-      <td><img src="kaos.jpg" alt="baju kaos" style="width:200px;height:220px;" /></td>
+      <td><img src="/kaos.jpg" alt="baju kaos" style="width:200px;height:220px;" /></td>
       <td align="center">Bombboogie</td>
 
       <td><div id="app">
@@ -42,7 +41,7 @@
         </select>
       </div></td>
 
-      <td><img src="kemeja.jpg" alt="baju kemeja" style="width:200px;height:220px"/> </td>
+      <td><img src="/kemeja.jpg" alt="baju kemeja" style="width:200px;height:220px"/> </td>
       <td align="center">Kemeja Flanel</td>
 
       <td><div id="app">
@@ -57,7 +56,7 @@
     </tr>
 
     <tr>
-      <td><img src="kaos2.jpg" alt="baju kaos 2" style="width:200px;height:220px;" /></td>
+      <td><img src="/kaos2.jpg" alt="baju kaos 2" style="width:200px;height:220px;" /></td>
       <td>Calcius Casual</td>
       <td><div id="app">
         <select v-model="selected">
@@ -68,7 +67,7 @@
           <option>XXL</option>
         </select>
       </div></td>
-      <td><img src="kemeja2.jpg" alt="baju kemeja" style="width:200px;height:220px"/> </td>
+      <td><img src="/kemeja2.jpg" alt="baju kemeja" style="width:200px;height:220px"/> </td>
       <td align="center">Kemeja casual</td>
 
       <td><div id="app">
@@ -98,7 +97,7 @@
 
 
     <tr>
-      <td><img src="jeans.jpg" alt="celana jeans" style="width:200px;height:220px;" /></td>
+      <td><img src="/jeans.jpg" alt="celana jeans" style="width:200px;height:220px;" /></td>
       <td align="center">jeans</td>
       <td><div id="app">
         <select v-model="selected">
@@ -110,7 +109,7 @@
         </select>
       </div></td>
 
-      <td><img src="training.jpg" alt="celana training" style="width:200px;height:220px"/> </td>
+      <td><img src="/training.jpg" alt="celana training" style="width:200px;height:220px"/> </td>
       <td align="center">Celana Jogger</td>
       <td><div id="app">
         <select v-model="selected">
@@ -124,7 +123,7 @@
     </tr>
 
     <tr>
-      <td><img src="jeans2.jpg" alt="celana jeans 2" style="width:200px;height:220px;" /></td>
+      <td><img src="/jeans2.jpg" alt="celana jeans 2" style="width:200px;height:220px;" /></td>
       <td>Calcius Casual</td>
       <td><div id="app">
         <select v-model="selected">
@@ -136,7 +135,7 @@
         </select>
       </div></td>
 
-      <td><img src="training2.jpg" alt="celana training 2" style="width:200px;height:220px"/> </td>
+      <td><img src="/training2.jpg" alt="celana training 2" style="width:200px;height:220px"/> </td>
       <td align="center">Adidas</td>
       <td><div id="app">
         <select v-model="selected">
@@ -159,7 +158,7 @@
   </tr>
 
   <tr>
-    <td> <img src="jam.jpg" alt="jam tangan" style="width:200px;height:220px"/></td>
+    <td> <img src="/jam.jpg" alt="jam tangan" style="width:200px;height:220px"/></td>
     <td>Jam Digital</td>
     <td><div id="app">
       <select v-model="selected">
@@ -173,7 +172,7 @@
   </tr>
 
   <tr>
-    <td> <img src="jam2.jpg" alt="jam Tangan 2" style="width:200px;height:220px"/></td>
+    <td> <img src="/jam2.jpg" alt="jam Tangan 2" style="width:200px;height:220px"/></td>
     <td>Rantai Silver</td>
     <td><div id="app">
       <select v-model="selected">
@@ -215,7 +214,7 @@ table, th, td {
 form {margin-top: 1%;}
 body  {
   background-size: cover;
-  background-image: url('bg6.jpg');
+  background-image: url('/bg6.jpg');
   background-color: #cccccc;
 
 }
